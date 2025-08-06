@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Cloud on Blog DevOps</title>
+        <link>http://localhost:1313/categories/cloud/</link>
+        <description>Recent content in Cloud on Blog DevOps</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-fr</language>
+        <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/cloud/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Introduction au cloud</title>
+        <link>http://localhost:1313/page/cloud-intro/cloud-intro/</link>
+        <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/cloud-intro/cloud-intro/</guid>
+        <description>&lt;img src="http://localhost:1313/page/cloud-intro/cloud-intro-couverture.png" alt="Featured image of post Introduction au cloud" /&gt;&lt;p&gt;Hello world, et bienvenue sur cette page d&amp;rsquo;introduction au cloud !&lt;/p&gt;
+&lt;p&gt;Cette page est destinée, à tous ceux qui veulent découvrir ou approfondir leurs connaissances sur le cloud. Que vous soyez entrepreneur, technicien en IT, commercial, développeur d&amp;rsquo;application ou encore étudiant dans le domaine du numérique. Ce post est fait pour vous ! Nous allons dans un premier temps définir ce qu&amp;rsquo;est un cloud afin de s&amp;rsquo;accorder sur une définition simple mais précise avant de s&amp;rsquo;attaquer au vif du sujet, les différents types de cloud et ce qu&amp;rsquo;ils proposent.&lt;/p&gt;
+&lt;p&gt;Le cloud est un sujet complexe et souvent abstrait pour le grand public, parfois même pour les techniciens. Mais pas de panique ! Nous allons explorer le sujet pas à pas, nous finirons pas un comparatif des solutions existantes sur le marché afin que vous soyez capable de choisir la solution la plus adapté à votre besoin.&lt;/p&gt;
+&lt;p&gt;A la fin de cette lecture le cloud n&amp;rsquo;aura plus de secret pour vous ! Vous serez en mesure de comprendre ce qu&amp;rsquo;est le cloud. De quel type de cloud s&amp;rsquo;agit-il lorsque l&amp;rsquo;on parle d&amp;rsquo;&lt;em&gt;iCloud&lt;/em&gt;, &lt;em&gt;Spotify&lt;/em&gt; ou &lt;em&gt;Airbnb&lt;/em&gt;. Et quel est la différence entre &lt;em&gt;DropBox&lt;/em&gt;, &lt;em&gt;OVH&lt;/em&gt; ou encore &lt;em&gt;AWS&lt;/em&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;1-définition-dun-cloud&#34;&gt;1. Définition d&amp;rsquo;un cloud
+&lt;/h1&gt;&lt;p&gt;Le concept du cloud est loin d&amp;rsquo;être nouveau. En réalité il existait même avant Internet, au tout début de l&amp;rsquo;informatique dans les années 1950, à cette époque les utilisateurs travailler conjointement sur un seul et unique serveur par le biais de terminaux.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est là que la &lt;strong&gt;notion&lt;/strong&gt; de &lt;em&gt;Cloud computing&lt;/em&gt; émerge, permettant alors à plusieurs utilisateurs de tirer parti d&amp;rsquo;une puissante machine pour partager des ressources informatiques.&lt;/p&gt;
+&lt;p&gt;Néamoins ce n&amp;rsquo;est qu&amp;rsquo;en 1994 que le terme de &lt;em&gt;Cloud&lt;/em&gt; fait son apparition. Ce terme était donc une métaphore pour décrire un système accessible à distance. La définition du cloud a cependant évoluer depuis les années 2000.&lt;/p&gt;
+&lt;p&gt;Aujourd&amp;rsquo;hui, le &lt;em&gt;Cloud&lt;/em&gt; repose sur 3 pilliers fondamentaux : &lt;strong&gt;Mutualisation&lt;/strong&gt;, &lt;strong&gt;Elasticité&lt;/strong&gt; et &lt;strong&gt;Facturation à l&amp;rsquo;usage&lt;/strong&gt;.
+Sans ces 3 éléments, on ne parlera pas de &lt;em&gt;Cloud&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;mutualisation&#34;&gt;Mutualisation
+&lt;/h3&gt;&lt;p&gt;La mutualisation signifie que les ressources matérielles et logicielles sont partagées. Ces ressources sont principalement des unités de calculs, du stockage et des réseaux.&lt;/p&gt;
+&lt;h3 id=&#34;elasticité&#34;&gt;Elasticité
+&lt;/h3&gt;&lt;p&gt;L&amp;rsquo;élasticité est un concept fondamental du &lt;em&gt;Cloud&lt;/em&gt;, il permet a une plateforme d&amp;rsquo;ajuster de manière dynamique la puissance dont elle a besoin. Permettant l&amp;rsquo;optimisation des ressources qui y sont partagées.&lt;/p&gt;
+&lt;h3 id=&#34;facturation-à-lusage&#34;&gt;Facturation à l&amp;rsquo;usage
+&lt;/h3&gt;&lt;p&gt;La facturation à l&amp;rsquo;usage fait désormais parti de la définition du &lt;em&gt;Cloud&lt;/em&gt;, ce qui signifie que vous ne payez que pour ce que vous consommez. C&amp;rsquo;est avantage considérable, permet de s&amp;rsquo;affranchir des coûts d&amp;rsquo;investissement.&lt;/p&gt;
+&lt;h3 id=&#34;exemple-&#34;&gt;Exemple :
+&lt;/h3&gt;&lt;p&gt;Pour illustrer les avantages du &lt;em&gt;Cloud&lt;/em&gt; nous allons prendre l&amp;rsquo;exemple d&amp;rsquo;un jeune entrepreneur John Doe ayant une idée d&amp;rsquo;application, il souhaite mettre en relation des chauffeur et des personnes voulant voyager d&amp;rsquo;un point A à un point B (Cela doit vous dire quelques choses&amp;hellip;). John décide alors une commission sur chaque course afin de gagner de l&amp;rsquo;argent, le problème c&amp;rsquo;est que John n&amp;rsquo;a pas de capital. Il compte sur ses talents de développeur pour créer une application et il souhaite faire la communication par lui même pour ne pas avoir de coûts d&amp;rsquo;investissement. Une fois le développement terminé, John doit déployer son application afin que tout le monde puisse l&amp;rsquo;utiliser. Ne pouvant pas acheter de serveur, John décide d&amp;rsquo;utiliser le Cloud pour déployer son application. Il payera quelques centimes la course, et pourra se verser une commission. Il évite donc les coûts d&amp;rsquo;investissement de l&amp;rsquo;achat du matériel et ne &lt;strong&gt;payera que ce qu&amp;rsquo;il consomme&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Si l&amp;rsquo;application fonctionne et qu&amp;rsquo;il dépasse les 100 utilisateurs, John n&amp;rsquo;aura pas a se soucier d&amp;rsquo;acheter un autre serveur, car il bénéficiera de l&amp;rsquo;&lt;strong&gt;élasticité&lt;/strong&gt; du cloud.&lt;/p&gt;
+&lt;p&gt;La &lt;strong&gt;mutualisation&lt;/strong&gt; du cloud s&amp;rsquo;illustre en se disant que l&amp;rsquo;application de John, sera hébergé sur les mêmes machines que celle de ces amis ayant créé une application mettant en lien des locataires et des bailleurs (&lt;em&gt;Airbnb&lt;/em&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;en-résumé-&#34;&gt;En résumé :
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Concept&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+          &lt;th&gt;Bénéfice&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mutualisation&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Les ressources matérielles et logicielles sont &lt;strong&gt;partagées&lt;/strong&gt; par plusieurs clients ou projets&lt;/td&gt;
+          &lt;td&gt;Induisant une &lt;strong&gt;réduction des coûts&lt;/strong&gt; d&amp;rsquo;acquisition et de maintenance&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Elasticité&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;La plateforme peut ajuster &lt;strong&gt;dynamiquement&lt;/strong&gt; la puissance de calcul, la capacité de stockage ou la bande passante en fonction de la charge.&lt;/td&gt;
+          &lt;td&gt;Permet une &lt;strong&gt;scalabilité&lt;/strong&gt; presque instantanée pour gérer les pics ou baisses d&amp;rsquo;activité.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Facturation à l&amp;rsquo;usage&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Le client paie &lt;strong&gt;uniquement pour ce qu&amp;rsquo;il consomme&lt;/strong&gt; (pay-as-you-go).&lt;/td&gt;
+          &lt;td&gt;Alignement des coûts sur la &lt;strong&gt;consommation réelle&lt;/strong&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;2-modèles-de-déploiement&#34;&gt;2. Modèles de déploiement
+&lt;/h1&gt;&lt;p&gt;Lorsque l&amp;rsquo;on parle de cloud, certains noms viennent naturellement à l&amp;rsquo;esprit tel que &lt;strong&gt;AWS&lt;/strong&gt; (Amazon Web Services), &lt;strong&gt;Microsoft Azure&lt;/strong&gt;, &lt;strong&gt;GCP&lt;/strong&gt; (Google Cloud Platform) ou encore &lt;strong&gt;OVH&lt;/strong&gt;. Mais ces géants ne représente en réalité qu&amp;rsquo;un seul modèle de déploiment cloud, le cloud public. Il existe en réalité une multitude d&amp;rsquo;autre fournisseur cloud. Néamoins pour certaines entreprises stocker ces données en ligne n&amp;rsquo;est pas concevable, c&amp;rsquo;est pour ça qu&amp;rsquo;un autre modèle de cloud est apparue, le cloud privé. Cependant créer et maintenir un cloud est un défi complexe et très couteux, c&amp;rsquo;est pour cela que certaines entreprises se sont tourné vers un mix de ses 2 clouds. Créant alors le cloud hybride.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Modèle&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+          &lt;th&gt;Cas d&amp;rsquo;usage type&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Public&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Infrastructures mutualisées, accessibles via Internet.&lt;/td&gt;
+          &lt;td&gt;Démarrage rapide, scalabilité mondiale (start-ups, e-commerce).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Privé&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Ressources dédiées à une seule organisation, hébergées on-premises ou chez un hébergeur.&lt;/td&gt;
+          &lt;td&gt;Secteur réglementés, exigences strictes de sécurité (banque, défense).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hybride&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Combinaison orchestrée de cloud privé et public&lt;/td&gt;
+          &lt;td&gt;Extension de capacité ponctuelle, résilience multi-site.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;3-modèles-de-services&#34;&gt;3. Modèles de services
+&lt;/h1&gt;&lt;p&gt;Indépendamment du modèle de déploiement, les clouds proposent différents modèles de services. Vous avez certainement déjà entendu parler de SaaS (Software as a Service) cette offre permettant d&amp;rsquo;avoir accès à une application à la demande. Ici pour les clouds nous pouvons choisir le niveau de granularité voulu avec de nouveau modèles tels que &lt;strong&gt;PaaS&lt;/strong&gt; (Plateform as a Service) et &lt;strong&gt;IaaS&lt;/strong&gt; (Infrastructure as a Service).&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Modèle&lt;/th&gt;
+          &lt;th&gt;Ce que fournit le fournisseur&lt;/th&gt;
+          &lt;th&gt;Ce que vous gérez&lt;/th&gt;
+          &lt;th&gt;Exemples&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;IaaS&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Matériel virtuel, réseau, stockage&lt;/td&gt;
+          &lt;td&gt;OS, middleware, runtime, données, applications&lt;/td&gt;
+          &lt;td&gt;AWS EC2, Google Compute Engine, OpenStack, VMware vSphere&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;PaaS&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;IaaS + OS + middleware + runtime&lt;/td&gt;
+          &lt;td&gt;Données, applications&lt;/td&gt;
+          &lt;td&gt;Azure App Service, Heroku, Red Hat OpenShift&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;SaaS&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Application compète en ligne&lt;/td&gt;
+          &lt;td&gt;Rien (simple configuration)&lt;/td&gt;
+          &lt;td&gt;Microsoft 365, Salesforce, Dropbox&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;4-panorama-des-solutions-du-marché&#34;&gt;4. Panorama des solutions du marché
+&lt;/h1&gt;&lt;h2 id=&#34;41-solution-cloud-public&#34;&gt;4.1 Solution cloud public
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Fournisseur&lt;/th&gt;
+          &lt;th&gt;Avantages&lt;/th&gt;
+          &lt;th&gt;Inconvénient&lt;/th&gt;
+          &lt;th&gt;Exemples d&amp;rsquo;entreprises qui l&amp;rsquo;utilisent&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Amazon Web Services (AWS)&lt;/td&gt;
+          &lt;td&gt;catalogue très large (&amp;gt;300 services), innovation rapide, présence mondiale, écosystème mature.&lt;/td&gt;
+          &lt;td&gt;complexité, coût variable difficile à prévoir, dépendante forte.&lt;/td&gt;
+          &lt;td&gt;Netflix, Airbnb, Société Générale.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Microsoft Azure&lt;/td&gt;
+          &lt;td&gt;intégration native avec l&amp;rsquo;écosystème Microsoft (AD, Office 365), offres hybrides (Azure Arc), grand réseau de datacenters européens.&lt;/td&gt;
+          &lt;td&gt;tarification complexe, certaines fonctionnalités en &lt;em&gt;preview&lt;/em&gt; longue.&lt;/td&gt;
+          &lt;td&gt;Heineken, Renault Group, Accor.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Google Cloud Platform (GCP)&lt;/td&gt;
+          &lt;td&gt;expertise data/ML, réseau backbone performant, facturation à la seconde.&lt;/td&gt;
+          &lt;td&gt;portefeuille plus restreint que ses concurrents, moins de régions en Europe.&lt;/td&gt;
+          &lt;td&gt;Spotify, Paypal, Airbus.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;D&amp;rsquo;autres solution existent tels que IBM Cloud, Oracle OCI, OVHcloud, Alibaba Cloud&amp;hellip; Chacune d&amp;rsquo;entre elle présente ses avantages et inconvénients.&lt;/p&gt;
+&lt;h2 id=&#34;42-solution-cloud-privé&#34;&gt;4.2 Solution cloud privé
+&lt;/h2&gt;&lt;p&gt;Maintenant la partie que vous attendiez tous, quelques solutions de déploiement de cloud privé, vous permettant de créer votre propre cloud à la maison !&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Solution&lt;/th&gt;
+          &lt;th&gt;Avantages&lt;/th&gt;
+          &lt;th&gt;Inconvénients&lt;/th&gt;
+          &lt;th&gt;Exemples d&amp;rsquo;entreprises qui l&amp;rsquo;utilisent&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;VMware vSphere / Cloud Foundation&lt;/td&gt;
+          &lt;td&gt;virtualisation éprouvée, forte compatibilité legacy, outils de gestion vRealize.&lt;/td&gt;
+          &lt;td&gt;license coûteuse, dépendance éditeur, orientation principalement IaaS.&lt;/td&gt;
+          &lt;td&gt;nombreux datacenters bancaires et administrations françaises.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Apache CloudStack&lt;/td&gt;
+          &lt;td&gt;solution open-source &amp;ldquo;tout-en-un&amp;rdquo;, interface simple, support multi-hyperviseurs.&lt;/td&gt;
+          &lt;td&gt;communauté plus restreinte qu&amp;rsquo;OpenStack, roadmap moins riche.&lt;/td&gt;
+          &lt;td&gt;LeaseWeb, Exoscale.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Microsoft Azure Stack HCI&lt;/td&gt;
+          &lt;td&gt;apporte les API et services Azure dans un datacenter privé, gestion unifiée via le portail Azure.&lt;/td&gt;
+          &lt;td&gt;matériel validé obligatoire, dépendance Microsoft.&lt;/td&gt;
+          &lt;td&gt;BMW Group, KPMG.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;OpenStack&lt;/td&gt;
+          &lt;td&gt;100% open-source, communauté mondiale active, architecture modulaire (extensible), support des conteneurs et de multiples hyperviseurs, indépendance fournisseur.&lt;/td&gt;
+          &lt;td&gt;courbe d&amp;rsquo;apprentissage, complexité opérationnelle sans outil de déploiement adapté, besoin d&amp;rsquo;une équipe d&amp;rsquo;exploitation expérimentée.&lt;/td&gt;
+          &lt;td&gt;CERN, OVHcloud, Walmart Lambs, Bloomberg, Orange, Tencent.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Depuis début 2025, on observe un accroissement de l&amp;rsquo;utilisation d&amp;rsquo;OpenStack à la suite du rachat de VMware par &lt;em&gt;BroadCom Inc.&lt;/em&gt; cet alternative opensource permet de s&amp;rsquo;affranchir des licenses devenant de plus en plus couteuse. Dans les prochains posts nous verrons alors l&amp;rsquo;architecture et les différents composants d&amp;rsquo;OpenStack avant de créer notre propre infrastructure cloud.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

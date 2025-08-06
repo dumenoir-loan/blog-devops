@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on DevOps Blog</title>
+        <link>http://localhost:1313/en/page/</link>
+        <description>Recent content in Pages on DevOps Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 13 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>http://localhost:1313/en/page/about/</link>
+        <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/en/page/about/</guid>
+        <description>&lt;p&gt;Hey there — thanks for stopping by!&lt;/p&gt;
+&lt;p&gt;I’m &lt;strong&gt;Loan Dumenoir&lt;/strong&gt;, a 23-year-old engineer who works where networking meets software.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How did I end up here?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It began in high-school electronics labs, soldering boards and writing tiny C routines to chat over &lt;strong&gt;I²C&lt;/strong&gt; and &lt;strong&gt;CAN&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Curiosity pushed me toward wireless home-automation (ZigBee / LoRa) and, inevitably, full-blown IP. Wanting to grasp what we casually call “the Internet” — and how to run routers and switches not just in an enterprise closet but at service-provider scale — I became hooked on how packets travel, dissecting protocols such as BGP, MPLS and RSTP.&lt;/li&gt;
+&lt;li&gt;I also spent evenings on Root-Me. Far from a CTF prodigy, I gained a lot by dismantling OWASP Top 10 labs and experimenting with buffer-overflows—seeing how things really break at the lowest level and how to avoid those pitfalls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After a few internships and a graduation project, I moved from traditional IT ops to what we now call &lt;strong&gt;NetDevOps&lt;/strong&gt; — bringing CI/CD discipline, version control and testing to routers, firewalls and data-centre fabrics.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-this-blog&#34;&gt;Why this blog?
+&lt;/h3&gt;&lt;p&gt;French industry is still catching up on &lt;strong&gt;NetDevOps&lt;/strong&gt;. I’d like to help fill the gap by sharing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hands-on guides;&lt;/li&gt;
+&lt;li&gt;real-world lessons learned — the &lt;em&gt;misconfig&lt;/em&gt; stories as well as the shiny diagrams;&lt;/li&gt;
+&lt;li&gt;a healthy dose of troubleshooting notes so Google can index them for the next unlucky soul.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you’re into automating networks rather than clicking through GUIs, you’ll feel at home.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;off-duty&#34;&gt;Off duty
+&lt;/h3&gt;&lt;p&gt;Ice-skating, swimming and regular workouts keep my brain functional.&lt;br&gt;
+When I’m not at the rink or the pool you’ll find me &lt;strong&gt;spoiling two rabbits&lt;/strong&gt; and an unreasonable number of houseplants. 🌿&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lets-connect&#34;&gt;Let’s connect
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://github.com/dumenoir-loan&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;loan-dumenoir&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/loan-dumenoir-2617b720b/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;loan-dumenoir&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-mail:&lt;/strong&gt; &lt;a class=&#34;link&#34; href=&#34;mailto:loan.dumenoir@gmail.com&#34; &gt;loan.dumenoir@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Drop a line if you’d like to chat about NetDevOps, compare firewall quirks, or share ice-skating tips!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>http://localhost:1313/en/page/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/en/page/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>http://localhost:1313/en/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/en/page/links/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://localhost:1313/en/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/en/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hello on DevOps Blog</title>
+        <link>http://localhost:1313/en/tags/hello/</link>
+        <description>Recent content in Hello on DevOps Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 13 Jun 2025 15:44:15 +0200</lastBuildDate><atom:link href="http://localhost:1313/en/tags/hello/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hello DevOps!</title>
+        <link>http://localhost:1313/en/posts/hello-devops/</link>
+        <pubDate>Fri, 13 Jun 2025 15:44:15 +0200</pubDate>
+        
+        <guid>http://localhost:1313/en/posts/hello-devops/</guid>
+        <description>&lt;p&gt;Welcome to my brand-new &lt;strong&gt;DevOps&lt;/strong&gt; blog!&lt;/p&gt;
+&lt;p&gt;This post is only here to check that:&lt;/p&gt;
+&lt;p&gt;1.Multilingual support works (URL &lt;code&gt;/en/posts/hello&lt;/code&gt;).
+2. The &lt;strong&gt;intro&lt;/strong&gt; taxonomy page is generated.
+3. Live-preview in Docker reloads instantly.&lt;/p&gt;
+&lt;p&gt;Enjoy the reading !&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

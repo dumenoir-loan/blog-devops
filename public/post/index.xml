@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Blog DevOps</title>
+        <link>http://localhost:1313/post/</link>
+        <description>Recent content in Posts on Blog DevOps</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-fr</language>
+        <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Openstack Intro</title>
+        <link>http://localhost:1313/post/openstack/openstack/</link>
+        <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/openstack/openstack/</guid>
+        <description>&lt;img src="http://localhost:1313/post/openstack/openstack-couverture2.png" alt="Featured image of post Openstack Intro" /&gt;&lt;h1 id=&#34;quest-ce-que-openstack&#34;&gt;Qu&amp;rsquo;est ce que Openstack
+&lt;/h1&gt;&lt;p&gt;Openstack est une solution open source de cloud computing.&lt;/p&gt;
+&lt;p&gt;Lorsque l&amp;rsquo;on parle de cloud computing, il y a plusieurs concept que l&amp;rsquo;on ne peut pas manquer. Tout d&amp;rsquo;abord la &lt;strong&gt;mutualisation&lt;/strong&gt; des ressources matériel et logiciel, permettant de réduire les coûts d&amp;rsquo;acquisition et de maintenance. l&amp;rsquo;&lt;strong&gt;Élasticité&lt;/strong&gt;, sa capacité à ajuster dynamiquement la puissance de calcul, de stockage ou la bande passante selon la demande. Pour finir le cloud à également imposer un nouveau format de &lt;strong&gt;facturation&lt;/strong&gt; qui est dite &lt;strong&gt;à l&amp;rsquo;usage&lt;/strong&gt; permettant de ne payer que pour ce qui est consommé.&lt;/p&gt;
+&lt;p&gt;On distingue principalement &lt;strong&gt;3 modèles&lt;/strong&gt; de cloud :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud public, accessible pour tous et géré par des fournisseurs tiers on peut citer comme exemple les 3 leaders, AWS (Amazon Web Services), Azure Cloud (Microsoft) et GCP (Google Cloud Provider).&lt;/li&gt;
+&lt;li&gt;Cloud privé, il est dédié a son organisation et est géré en interne ou par un prestataire.&lt;/li&gt;
+&lt;li&gt;Cloud hybride, ce type de cloud n&amp;rsquo;est autre que la combinaison du cloud privé et public, il permet alors de mixer la sécurité et la scalabilité.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Openstack n&amp;rsquo;est pas la seul solution de Cloud computing aujourd&amp;rsquo;hui, il existe d&amp;rsquo;autre solution tel que :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VMware vSphere / Cloud Foundation : plate-forme propriétaire mature pour la virtualisation de serveurs et le déploiement de clouds privés ou hybrides, avec un écosystème riche (vSAN, NSX, vRealize)&lt;/li&gt;
+&lt;li&gt;Apache CloudStack : Projet open source pour la création et la gestion de clouds IaaS. Il est comparable à OpenStack mais avec une architecture monolithique plus simple à déployer.&lt;/li&gt;
+&lt;li&gt;Microsoft Azure Stack : Une extension &amp;ldquo;on-premises&amp;rdquo; du cloud Azure de Microsoft. Il permet de fournir des services PaaS et IaaS Azure dans son propre datacenter, en profitant de la même API qu&amp;rsquo;Azure public.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OpenStack est largement adopté par des grandes sociétés on peut citer comme exemple le CERN, Walmart ou encore OVHcloud.&lt;/p&gt;
+&lt;p&gt;Contrairement à Apache CloudStack, openstack offre une architecture micro-services. Voici une liste non exhaustive des composants principaux d&amp;rsquo;OpenStack :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keystone (IAM)&lt;/li&gt;
+&lt;li&gt;Nova (Calcul)&lt;/li&gt;
+&lt;li&gt;Neutron (Réseau)&lt;/li&gt;
+&lt;li&gt;Cinder (Stockage en bloc)&lt;/li&gt;
+&lt;li&gt;Swift (Stockage objet)&lt;/li&gt;
+&lt;li&gt;Glance (Catalogue d&amp;rsquo;images)&lt;/li&gt;
+&lt;li&gt;Horizon (Interface web)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le principal avantage d&amp;rsquo;OpenStack est donc que l&amp;rsquo;on peut mettre à l&amp;rsquo;échelle chaque services indépendamment. Néamoins cela ajoute une complexité de mise en place de l&amp;rsquo;infrastructure. Il faut donc installer et configurer chaque service.&lt;/p&gt;
+&lt;h2 id=&#34;outils-de-déploiement&#34;&gt;Outils de déploiement
+&lt;/h2&gt;&lt;p&gt;Pour palier à ce problème il existe des outils permettant de faciliter le déploiement et la configuration des services.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DevStack - Ensemble de scripts pour installer rapidement un environnement OpenStack complet.&lt;/li&gt;
+&lt;li&gt;Kolla-Ansible - Déploie les services OpenStack sous forme de conteneurs Docker orchestrés par Ansible.&lt;/li&gt;
+&lt;li&gt;TripleO (Openstack-On-Openstack) - Utilise un cloud Openstack &amp;ldquo;undercloud&amp;rdquo; pour provisionner, configurer et gérer le &amp;ldquo;overcloud&amp;rdquo; de production.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nous verrons dans un autre post la création d&amp;rsquo;un cloud Openstack.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

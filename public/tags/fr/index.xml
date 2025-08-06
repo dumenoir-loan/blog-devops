@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Fr on Blog DevOps</title>
+        <link>http://localhost:1313/tags/fr/</link>
+        <description>Recent content in Fr on Blog DevOps</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr-fr</language>
+        <lastBuildDate>Fri, 13 Jun 2025 15:44:15 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/fr/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Bonjour DevOps !</title>
+        <link>http://localhost:1313/posts/hello-devops/</link>
+        <pubDate>Fri, 13 Jun 2025 15:44:15 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/hello-devops/</guid>
+        <description>&lt;p&gt;Bienvenue sur mon nouveau blog &lt;strong&gt;DevOps&lt;/strong&gt; !&lt;/p&gt;
+&lt;p&gt;Cet article n&amp;rsquo;est qu&amp;rsquo;un exemple pour vérifier :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Que le multilingue fonctionne (URL &lt;code&gt;/fr/posts/hello&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Que la &lt;em&gt;taxonomie&lt;/em&gt; &amp;ldquo;intro&amp;rdquo; est bien générée.&lt;/li&gt;
+&lt;li&gt;Que la &lt;em&gt;live-preview&lt;/em&gt; Docker recharge la page instantanément.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Bonne lecture !&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

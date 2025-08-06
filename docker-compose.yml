@@ -1,0 +1,17 @@
+services:
+  hugo:
+    # Choisis l’une des deux lignes suivant ta préférence :
+    # image: klakegg/hugo:ext-alpine        # ≈ Hugo 0.111, plus maintenu
+    image: ghcr.io/gohugoio/hugo:latest    # Hugo officiel, extended
+    working_dir: /src
+    command: >
+      server
+      --bind 0.0.0.0
+      --baseURL http://localhost
+      --poll 1s
+      --disableFastRender
+      -D
+    volumes:
+      - ./:/src
+    ports:
+      - "1313:1313"

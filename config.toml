@@ -1,0 +1,35 @@
+baseURL = "https://V3n0nYm0uS.github.io/"
+theme   = "hugo-theme-stack"
+defaultContentLanguage = "fr"
+DefaultContentLanguageInSubdir = false
+
+########################
+#  PARAMÈTRES DU THÈME #
+########################
+[params]
+
+  [params.sidebar]
+    subtitle = "NetDevOps & Cloud Engineering"
+    compact = false
+
+    [params.sidebar.avatar]
+      enabled = true
+      local = true
+      src = "img/avatar.png"
+
+################
+#  LANGUAGES   #
+################
+[languages]
+
+  [languages.fr]
+    languageName = "Français"
+    weight       = 1                   # premier dans les menus
+    title        = "Blog DevOps"
+    languageCode = "fr-fr"
+
+  [languages.en]
+    languageName = "English"
+    weight       = 2
+    title        = "DevOps Blog"
+    languageCode = "en-us"

@@ -7,17 +7,27 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout source
         uses: actions/checkout@v4
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.125.0'
+          extended: true  # optionnel mais recommandé si tu utilises un thème "extended"
 
-      - name: Build
-        run: hugo --minify
+      - name: Build the site
+        run: |
+          set +x 
+          hugo --minify
+
+      - name: Check generated output
+        run: |
+          set +x
+          ls -la ./public
+          test -f ./public/index.html || (echo "::error::Build failed: index.html not found" && exit 1)
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

@@ -7,7 +7,7 @@ services:
     command: >
       server
       --bind 0.0.0.0
-      --baseURL http://localhost
+      --baseURL "https://dumenoir-loan.github.io/blog-devops/"
       --poll 1s
       --disableFastRender
       -D

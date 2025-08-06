@@ -116,8 +116,6 @@
                 href="http://localhost:1313/page/links/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
-  </url><url>
     <loc>http://localhost:1313/page/rechercher/</loc>
     <xhtml:link
                 rel="alternate"
@@ -129,13 +127,5 @@
                 hreflang="fr-fr"
                 href="http://localhost:1313/page/rechercher/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/tags/tag-with-whitespaces/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/test/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/test-with-whitespaces/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/text/</loc>
   </url>
 </urlset>
